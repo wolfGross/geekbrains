@@ -1,0 +1,122 @@
+@font-face{font-family: 'Lato', sans-serif;}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Lato;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerSearch{
+    height: 100px;
+    width: 1140px;
+}
+.logo{
+    background: url("img/Group_2.png") no-repeat;
+    padding-left: 60px;
+    height: 55px;
+}
+.logo .logoContent{
+    margin-top: 20px;
+}
+.logo .logoContent span{
+    color: #f16d7f;
+}
+.search{
+    border: 1px solid #e6e6e6;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.search select, .search input[type="text"]{
+    margin-right: -4px;
+    border: none;
+    border-right: 1px solid #e6e6e6;
+}
+.search select{
+    background: #f7f7f7;
+    height: 40px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.search input[type="text"]{
+    height: 40px;
+    margin-left: 12px;
+}
+.search button{
+    background: none;
+    border: none;
+    height: 40px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.account{
+    display: flex;
+    justify-content: center;
+}
+.headerMenu{
+    height: 51px;
+    border-top: 1px solid #f7f7f7;
+}
+.headerMenu a{
+    text-decoration: none;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+.headerMenu a:not(:last-child){
+    margin-right: 20px;
+}
+.slider{
+    height: 615px;
+    background: #e8e8e8;
+}
+.sliderContent{
+    display: flex;
+    border-left: 12px solid #f16d7f;
+    padding-left: 10px;
+    /*height: 92px;*/
+    width: 500px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sliderContent .box{
+    font-size: 40px;
+    letter-spacing: 1.5px;
+}
+.sliderContent .box span{
+    color: #f16d7f;
+}
+.title{
+    font-size: 60px;
+    font-weight: 400;
+}
+.category{
+    width: 1140px;
+    height: 823px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.content .categoryTitle{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.content .text{
+    color: #f16d7f;
+    font-size: 30px;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+}
+.category .content{
+    position: absolute;
+    background: #fff;
+    margin-top: 30px;
+    padding: 20px 15px;
+}
